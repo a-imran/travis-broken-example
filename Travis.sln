@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travis", "Travis\Travis.csproj", "{4BC4F9BB-0913-4337-830C-8F1D0E0B6956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travis.Tests", "Travis.Tests\Travis.Tests.csproj", "{584115E4-0718-4E50-A39A-197D064FD74F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC4F9BB-0913-4337-830C-8F1D0E0B6956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC4F9BB-0913-4337-830C-8F1D0E0B6956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC4F9BB-0913-4337-830C-8F1D0E0B6956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC4F9BB-0913-4337-830C-8F1D0E0B6956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584115E4-0718-4E50-A39A-197D064FD74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584115E4-0718-4E50-A39A-197D064FD74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584115E4-0718-4E50-A39A-197D064FD74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584115E4-0718-4E50-A39A-197D064FD74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,7 @@
-language: php
-php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php
+language: csharp
+solution: "./Travis.sln"
+install:
+- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Travis.sln
+script:
+- xbuild ./Travis.sln
+- mono ./packages/xunit.runner.console*/tools/xunit.console.exe ./Travis.Tests/bin/Debug/Travis.Tests.dll

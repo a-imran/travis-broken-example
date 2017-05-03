@@ -1,0 +1,5 @@
+packages
+Travis.Tests/bin
+Travis.Tests/obj
+Travis/bin
+Travis/obj
